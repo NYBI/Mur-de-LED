@@ -1,4 +1,4 @@
-README.html: README
+README.html: README.md
 	markdown $< > $@
 
 clean:
